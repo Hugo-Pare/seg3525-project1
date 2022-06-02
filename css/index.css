@@ -1,0 +1,104 @@
+
+a img{
+    margin-right: 2%;
+}
+
+body, html{
+    margin: 0%;
+    height: 96.61%;
+}
+
+button{
+    padding: 0px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+}
+
+h1, h2{
+    text-align: center;
+}
+
+li{
+    font-size: 1rem;
+    padding-top: 0.2rem;
+}
+
+#wrapper ul{
+    padding-left: 0pt;
+}
+
+
+.button-text{
+    display: flex;
+    flex-direction: column;
+}
+
+.button-title{
+    font-size: xx-large;
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: underline;
+
+    margin-left: 1rem;
+}
+
+.button-subtitle{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: left;
+    padding-left: 4%;
+    width: max-content;
+
+    margin-left: 1rem;
+}
+
+.divider{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+
+.image-inside-button img{
+    height: 12rem;
+    width: 15rem;
+    margin: 0%;
+    float: left;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+}
+
+.info-section-right{
+    background-image: linear-gradient(#cccccc, #ffffff, #a6a6a6);
+    width: 50%;
+}
+
+.list-of-buttons{
+    margin: 20px;
+    width: 50%;
+}
+
+.navbar-brand{
+    padding-left: 1%;
+    font-size: 1.5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.navbar-links{
+    padding-right: 1%;
+}
+
+.services{
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.title{
+    background-color: #00e6e6;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
