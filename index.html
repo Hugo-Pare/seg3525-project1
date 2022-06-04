@@ -27,7 +27,7 @@
             <div class="list-of-buttons">
                 <h2>Sélectionnez le type d'animal domestique</h2>
                 <form>
-                    <button class="image-inside-button" type="button" onclick="reservation()"><img src="./images/buttons/dog1.jpg">
+                    <button class="image-inside-button" id="dog" type="button" onmouseenter="changeDogColor()" onmouseleave="resetColor()" onclick="reservationDog()"><img src="./images/buttons/dog1.jpg">
                     
                         <div class="button-text">
                             <div class="button-title">Chien</div>
@@ -43,7 +43,7 @@
                         
                     </button>
 
-                    <button class="image-inside-button" type="button" onclick="reservation()"><img src="./images/buttons/cat1.jpg">
+                    <button class="image-inside-button" id="cat" type="button" onmouseenter="changeCatColor()" onmouseleave="resetColor()" onclick="reservationCat()"><img src="./images/buttons/cat1.jpg">
                         
                         <div class="button-text">
                             <div class="button-title">Chat</div>
@@ -59,7 +59,7 @@
                         
                     </button>
 
-                    <button class="image-inside-button" type="button" onclick="reservation()"><img src="./images/buttons/bunny1.jpg">
+                    <button class="image-inside-button" id="bunny" type="button" onmouseenter="changeBunnyColor()" onmouseleave="resetColor()" onclick="reservationBunny()"><img src="./images/buttons/bunny1.jpg">
                         
                         <div class="button-text">
                             <div class="button-title">Lapin</div>

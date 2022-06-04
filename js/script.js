@@ -1,14 +1,29 @@
-function reservation(animalName){
+function reservationDog(){
+    window.location.href='./pages/reservation-dog.html';
+};
 
-    window.location.href='./pages/reservation.html';
-    // set Animal name to 'animalName'
+function reservationCat(){
+    window.location.href='./pages/reservation-cat.html';
+};
 
+function reservationBunny(){
+    window.location.href='./pages/reservation-bunny.html';
+};
+
+function changeDogColor(){
+    document.getElementById('dog').style.backgroundColor = '#a6a6a6';
 }
 
-class Animal{
+function changeCatColor(){
+    document.getElementById('cat').style.backgroundColor = '#a6a6a6';
+}
 
-    constructor(animalName){
-        this.animalName = animalName;
-    }
+function changeBunnyColor(){
+    document.getElementById('bunny').style.backgroundColor = '#a6a6a6';
+}
 
+function resetColor(){
+    document.getElementById('dog').style.backgroundColor = '#cccccc';
+    document.getElementById('cat').style.backgroundColor = '#cccccc';
+    document.getElementById('bunny').style.backgroundColor = '#cccccc';
 }

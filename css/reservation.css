@@ -2,6 +2,41 @@ a img{
     margin-right: 2%;
 }
 
+input[type=radio] {
+    width: 20px;
+    height: 20px;
+}
+
+label span{
+    display:inline-block;
+    margin-left: 10px;
+  }
+
+.columns{
+    display: flex;
+}
+
+.divider1{
+    display: flex;
+    font-size:1.5rem;
+}
+
+.image-fit{
+    max-width: 99%;
+    max-height: 99vh;
+    margin: 0;
+}
+
+.image-left{
+    display: grid;
+    height: 100%;
+}
+
+.info{
+    width: 80%;
+    text-align: center;
+}
+
 .navbar-brand{
     padding-left: 1%;
     font-size: 1.5rem;
@@ -10,4 +45,19 @@ a img{
 
 .navbar-links{
     padding-right: 1%;
+}
+
+.radio{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    padding: 3%;
+}
+
+.services{
+    width: 50%;
+}
+
+.specialists{
+    width: 50%;
 }
