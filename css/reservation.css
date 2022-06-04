@@ -12,13 +12,31 @@ label span{
     margin-left: 10px;
   }
 
+
+.button-container{
+    position: relative;
+    top: 50%;
+}
+
+.calendar, .client-info, .confirm-reservation{
+    width: 50%;
+}
+
 .columns{
     display: flex;
 }
 
-.divider1{
+.date-time{
+    padding: 3%;
+}
+
+.divider1, .divider2, .divider3{
     display: flex;
     font-size:1.5rem;
+}
+
+.empty-space{
+    padding-top: 3%;
 }
 
 .image-fit{
@@ -35,6 +53,12 @@ label span{
 .info{
     width: 80%;
     text-align: center;
+}
+
+.name-email{
+    display: flex;
+    flex-direction: column;
+    padding: 3%;
 }
 
 .navbar-brand{
@@ -59,5 +83,9 @@ label span{
 }
 
 .specialists{
+    width: 50%;
+}
+
+.time{
     width: 50%;
 }

@@ -27,3 +27,15 @@ function resetColor(){
     document.getElementById('cat').style.backgroundColor = '#cccccc';
     document.getElementById('bunny').style.backgroundColor = '#cccccc';
 }
+
+function changeReservationColor(){
+    document.getElementById('reservation-button').style.backgroundColor = '#a6a6a6';
+}
+
+function resetReservationColor(){
+    document.getElementById('reservation-button').style.backgroundColor = '#cccccc';
+}
+
+function confirmation(){
+    window.location.href='../pages/confirmation.html';
+}
