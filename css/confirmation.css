@@ -1,0 +1,21 @@
+
+body, html{
+    margin: 0%;
+    height: 96.9%;
+}
+
+span{
+    padding: 3%;
+}
+
+.info-section{
+    background-image: linear-gradient(#cccccc, #ffffff, #a6a6a6);
+    margin-left: 25%;
+    margin-right: 25%;
+    text-align: center;
+    height: 100%;
+}
+
+.service-specialist, .name, .date-time{
+    font-size: 1.2rem;
+}

@@ -38,19 +38,19 @@
 
                         <div class="radio">
                             <label class="option1">
-                                <input name="service" type="radio">
+                                <input name="service" type="radio" value="1">
                                     <span>
                                         Coupe de griffes (50$)
                                     </span>
                             </label>
                             <label class="option2">
-                                <input name="service" type="radio">
+                                <input name="service" type="radio" value="2">
                                     <span>
                                         Brossage (70$)
                                     </span>
                             </label>
                             <label class="option3">
-                                <input name="service" type="radio">
+                                <input name="service" type="radio" value="3">
                                     <span>
                                         Toilettage complet (100$)
                                     </span>
@@ -62,19 +62,19 @@
 
                         <div class="radio">
                             <label class="option1">
-                                <input name="specialist" type="radio">
+                                <input name="specialist" type="radio" value="1">
                                     <span>
                                         Marie-Soleil Simard
                                     </span>
                             </label>
                             <label class="option2">
-                                <input name="specialist" type="radio">
+                                <input name="specialist" type="radio" value="2">
                                     <span>
                                         Maxime Grenon
                                     </span>
                             </label>
                             <label class="option3">
-                                <input name="specialist" type="radio">
+                                <input name="specialist" type="radio" value="3">
                                     <span>
                                         Charles-Antoine Bussière
                                     </span>
@@ -88,14 +88,14 @@
                     <div class="calendar">
                         <u>Veuillez sélectionner une date :</u>
                         <div class="date-time">
-                            <input type="date">
+                            <input type="date" id="date" name="date" onmouseout="exportDate()">
                         </div>
                     </div>
 
                     <div class="time">
                         <u>Veuillez sélectionner un temps :</u>
                         <div class="date-time">
-                            <input type="time">
+                            <input type="time" id="time"  name="time" onmouseout="exportTime()">
                         </div>
                     </div>
                 </div>
@@ -104,14 +104,14 @@
                     <div class="client-info">
                         <u>Veuillez entrer vos informations :</u>
                         <div class="name-email">
-                            <input type="text" placeholder="Nom">
+                            <input type="text" placeholder="Nom" name="name" onmouseout="exportName()">
                             <div class="empty-space"></div>
-                            <input type="email" placeholder="Courriel">
+                            <input type="email" placeholder="Courriel" name="email" onmouseout="exportEmail()">
                         </div>
                     </div>
                     <div class="confirm-reservation">
                         <div class="button-container">
-                            <button id="reservation-button" type="button" onmouseenter="changeReservationColor()" onmouseleave="resetReservationColor()" onclick="confirmation()">Réserver Maintenant</button>
+                            <button id="reservation-button" type="button" onmouseenter="changeReservationColor()" onmouseleave="resetReservationColor()" onclick="confirmationDog()">Réserver Maintenant</button>
                         </div>
                     </div>
                 </div>

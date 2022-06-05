@@ -36,6 +36,52 @@ function resetReservationColor(){
     document.getElementById('reservation-button').style.backgroundColor = '#cccccc';
 }
 
-function confirmation(){
+function confirmationDog(){
     window.location.href='../pages/confirmation.html';
+
+    var animalType = 'dog'
+    var service = document.querySelector('input[name=service]:checked').value;
+    var specialist = document.querySelector('input[name=specialist]:checked').value;
+
+    sessionStorage.setItem("animalType",animalType);
+    sessionStorage.setItem("service",service);
+    sessionStorage.setItem("specialist",specialist);
+}
+
+function confirmationCat(){
+    window.location.href='../pages/confirmation.html';
+    sessionStorage.setItem("animalType","cat");
+}
+
+function confirmationBunny(){
+    window.location.href='../pages/confirmation.html';
+    sessionStorage.setItem("animalType","bunny");
+}
+
+function exportDate(){
+    var date = document.querySelector('input[name=date]').value;
+    sessionStorage.setItem("date", date);
+    
+    console.log("date: " + date);
+}
+
+function exportTime(){
+    var time = document.querySelector('input[name=time]').value;
+    sessionStorage.setItem("time", time);
+    
+    console.log("time: " + time);
+}
+
+function exportName(){
+    var name = document.querySelector('input[name=name]').value;
+    sessionStorage.setItem("name", name);
+    
+    console.log("name: " + name);
+}
+
+function exportEmail(){
+    var email = document.querySelector('input[name=email]').value;
+    sessionStorage.setItem("email", email);
+    
+    console.log("email: " + email);
 }
