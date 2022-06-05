@@ -12,14 +12,23 @@ window.onload = function(){
     if(animalType === 'dog'){
         document.getElementById('head').innerText = 'Confirmation pour chien';
         animalVal = 0;
+
+        console.log(animalType);
     }
-    else if(sessionStorage.getItem("animalType") === 'cat'){
+    else if(animalType === 'cat'){
         document.getElementById('head').innerText = 'Confirmation pour chat';
         animalVal = 1;
+
+        console.log(animalType);
     }
-    else{
+    else if(animalType === 'bunny'){
         document.getElementById('head').innerText = 'Confirmation pour lapin';
         animalVal = 2;
+
+        console.log(animalType);
+    }
+    else{
+        document.getElementById('head').innerText = 'Confirmation';
     }
 
     // name

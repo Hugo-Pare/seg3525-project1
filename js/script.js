@@ -50,12 +50,24 @@ function confirmationDog(){
 
 function confirmationCat(){
     window.location.href='../pages/confirmation.html';
-    sessionStorage.setItem("animalType","cat");
+
+    var animalType = 'cat'
+    var service = document.querySelector('input[name=service]:checked').value;
+    var specialist = document.querySelector('input[name=specialist]:checked').value;
+
+    sessionStorage.setItem("animalType",animalType);
+    sessionStorage.setItem("service",service);
+    sessionStorage.setItem("specialist",specialist);
 }
 
 function confirmationBunny(){
     window.location.href='../pages/confirmation.html';
-    sessionStorage.setItem("animalType","bunny");
+
+    var service = document.querySelector('input[name=service]:checked').value;
+    var specialist = document.querySelector('input[name=specialist]:checked').value;
+
+    sessionStorage.setItem("service",service);
+    sessionStorage.setItem("specialist",specialist);
 }
 
 function exportDate(){
@@ -84,4 +96,19 @@ function exportEmail(){
     sessionStorage.setItem("email", email);
     
     console.log("email: " + email);
+}
+
+function exportDog(){
+    var animalType = 'dog'
+    sessionStorage.setItem("animalType",animalType);
+}
+
+function exportCat(){
+    var animalType = 'cat'
+    sessionStorage.setItem("animalType",animalType);
+}
+
+function exportBunny(){
+    var animalType = 'bunny'
+    sessionStorage.setItem("animalType",animalType);
 }
