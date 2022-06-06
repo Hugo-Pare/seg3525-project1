@@ -2,6 +2,7 @@
 <html>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="../css/services.css">
+    <script src="../js/services.js"></script>
 
     <nav class="navbar navbar-expand-lg navbar-light justify-content-between" style="background-color: #00b3b3;">
         <a class="navbar-brand" href="../index.html">
@@ -23,9 +24,61 @@
 
     <body>
         <div class="main-section">
-            <h1>
-                Services
-            </h1>
+            <h2>
+                Nos Services
+            </h2>
+            <div class="list-of-services">
+                <form>
+                    <button class="image-inside-button" id="dog" type="button" onmouseenter="changeDogColor()" onmouseleave="resetColor()" onclick="reservationDog()"><img src="../images/buttons/dog1.jpg">
+                    
+                        <div class="button-text">
+                            <div class="button-title">Chien</div>
+                            <div class="button-subtitle">
+                                <div class="services">Services offerts :</div>
+                                <ul>
+                                    <li>Coupe de griffes - 15 minutes</li>
+                                    <li>Brossage - 30 minutes</li>
+                                    <li>Toilettage complet - 45 minutes</li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                    </button>
+
+                    <button class="image-inside-button" id="cat" type="button" onmouseenter="changeCatColor()" onmouseleave="resetColor()" onclick="reservationCat()"><img src="../images/buttons/cat1.jpg">
+                        
+                        <div class="button-text">
+                            <div class="button-title">Chat</div>
+                            <div class="button-subtitle">
+                                <div class="services">Services offerts :</div>
+                                <ul>
+                                    <li>Coupe de griffes - 15 minutes</li>
+                                    <li>Toilettage félin - 15 minutes</li>
+                                    <li>Pension pour chat</li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                    </button>
+
+                    <button class="image-inside-button" id="bunny" type="button" onmouseenter="changeBunnyColor()" onmouseleave="resetColor()" onclick="reservationBunny()"><img src="../images/buttons/bunny1.jpg">
+                        
+                        <div class="button-text">
+                            <div class="button-title">Lapin</div>
+                            <div class="button-subtitle">
+                                <div class="services">Services offerts :</div>
+                                <ul>
+                                    <li>Coupe de griffes - 15 minutes</li>
+                                    <li>Brossage - 15 minutes</li>
+                                    <li>Pension pour lapin</li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                    </button> 
+
+                </form>
+            </div>
         </div>
         
     </body>

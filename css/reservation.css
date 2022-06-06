@@ -2,6 +2,10 @@ a img{
     margin-right: 2%;
 }
 
+h2{
+    padding-top: 1%;
+}
+
 input[type=radio] {
     width: 20px;
     height: 20px;
@@ -10,7 +14,7 @@ input[type=radio] {
 label span{
     display:inline-block;
     margin-left: 10px;
-  }
+}
 
 
 .button-container{

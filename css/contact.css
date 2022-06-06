@@ -7,6 +7,10 @@ body, html{
     height: 96.6%;
 }
 
+h2{
+    padding-top: 1%;
+}
+
 .main-section{
     background-image: linear-gradient(#cccccc, #ffffff, #a6a6a6);
     margin-left: 25%;
