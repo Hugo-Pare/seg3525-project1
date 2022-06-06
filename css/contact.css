@@ -11,6 +11,37 @@ h2{
     padding-top: 1%;
 }
 
+table{
+    width: 100%;
+}
+
+td{
+    padding: 1%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.2rem;
+}
+
+tr{
+    width: max-content;
+}
+
+.custom-table{
+    border: 10px solid #00b3b3;
+    border-radius: 12px;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.date-time{
+    width: 100%;
+}
+
+.hours{
+    padding-top: 2%;
+}
+
 .main-section{
     background-image: linear-gradient(#cccccc, #ffffff, #a6a6a6);
     margin-left: 25%;

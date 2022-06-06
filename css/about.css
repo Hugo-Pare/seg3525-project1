@@ -7,8 +7,63 @@ body, html{
     height: 96.6%;
 }
 
+form{
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+}
+
 h2{
     padding-top: 1%;
+}
+
+.div-text{
+    display: flex;
+    flex-direction: column;
+}
+
+.div-title{
+    font-size: xx-large;
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: underline;
+
+    margin-left: 1rem;
+}
+
+.div-subtitle{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: left;
+    padding-left: 4%;
+    width: max-content;
+
+    margin-left: 1rem;
+}
+
+.image-inside-div{
+    border: solid black 2px;
+    border-radius: 12px;
+
+    padding: 0px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    background-color:#cccccc;
+}
+
+.image-inside-div img{
+    height: 12rem;
+    width: 15rem;
+    margin: 0%;
+    float: left;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+}
+
+.list-of-specialists{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 3%;
+    width: 80%;
 }
 
 .main-section{
@@ -27,4 +82,9 @@ h2{
 
 .navbar-links{
     padding-right: 1%;
+}
+
+.specialist{
+    font-weight: bolder;
+    font-size: larger;
 }
