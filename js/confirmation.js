@@ -1,8 +1,8 @@
 var services = [['Coupe de griffes','Brossage','Toilletage Complet'],['Coupe de griffes','Toillettage félin','Pension pour chat'],['Coupe de griffes','Brossage','Pension pour lapin']];
 var specialists = ['Marie-Soleil Simard','Maxime Grenon','Charles-Antoine Bussière'];
 var animalType = sessionStorage.getItem("animalType");
-var serviceVal = sessionStorage.getItem("service");
-var specialistVal = sessionStorage.getItem("specialist");
+var serviceVal = sessionStorage.getItem("service") -1 ;
+var specialistVal = sessionStorage.getItem("specialist") - 1;
 var date = sessionStorage.getItem('date');
 var time = sessionStorage.getItem('time');
 
@@ -28,7 +28,7 @@ window.onload = function(){
         console.log(animalType);
     }
     else{
-        document.getElementById('head').innerText = 'Confirmation';
+        document.getElementById('head').innerText = 'Confirmation en attente';
     }
 
     // name

@@ -2,6 +2,19 @@ a img{
     margin-right: 2%;
 }
 
+body, html{
+    margin: 0%;
+    height: 96.6%;
+}
+
+.main-section{
+    background-image: linear-gradient(#cccccc, #ffffff, #a6a6a6);
+    margin-left: 25%;
+    margin-right: 25%;
+    text-align: center;
+    height: 100%;
+}
+
 .navbar-brand{
     padding-left: 1%;
     font-size: 1.5rem;

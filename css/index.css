@@ -30,6 +30,24 @@ li{
     padding-top: 0.2rem;
 }
 
+span{
+    padding: 3%;
+}
+
+table{
+    width: 100%;
+}
+
+td{
+    padding: 1%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.2rem;
+}
+
+tr{
+    width: max-content;
+}
+
 #wrapper ul{
     padding-left: 0pt;
 }
@@ -58,10 +76,31 @@ li{
     margin-left: 1rem;
 }
 
+.contact{
+    padding-top: 2%;
+}
+
+.custom-table{
+    border: 10px solid #00b3b3;
+    border-radius: 12px;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.date-time{
+    width: 100%;
+}
+
 .divider{
     display: flex;
     flex-direction: row;
     height: 100%;
+}
+
+.hours{
+    padding-top: 2%;
 }
 
 .image-inside-button img{
@@ -76,6 +115,8 @@ li{
 .info-section-right{
     background-image: linear-gradient(#cccccc, #ffffff, #a6a6a6);
     width: 50%;
+    padding-top: 1%;
+    text-align: center;
 }
 
 .list-of-buttons{
